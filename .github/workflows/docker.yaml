@@ -56,9 +56,8 @@ jobs:
         id: read-images
         run: |
           IMAGES=$(jq -R -s -c 'split("\n") | map(select(length > 0))' images.txt)
-          echo "images=$IMAGES" >> $GITHUB_ENV
-        outputs:
-          images: ${{ steps.read-images.outputs.images }}
+          echo "$IMAGES" > images.json
+          echo "::set-output name=images::$IMAGES"
 
   # 处理任务
   process:
