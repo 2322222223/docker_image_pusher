@@ -55,7 +55,7 @@ jobs:
       - name: Read Images File
         id: read-images
         run: |
-          IMAGES=$(cat images.txt | grep -v '^\s*#' | grep -v '^\s*$')
+          IMAGES=$(jq -R -s -c 'split("\n") | map(select(length > 0))' images.txt)
           echo "images=$IMAGES" >> $GITHUB_ENV
 
   # 处理任务
