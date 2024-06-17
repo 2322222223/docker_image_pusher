@@ -1,4 +1,4 @@
-tensorflow
+tensorflow/tensorflow
 mysql
 redis
 cuda
