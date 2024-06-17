@@ -1,9 +1,4 @@
-ubuntu
-python
-node
-openjdk
-cuda
 tensorflow
 mysql
 redis
-mongo
+cuda
