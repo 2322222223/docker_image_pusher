@@ -1,4 +1,3 @@
-mongodb
 alpine
 mongo
 tomcat
