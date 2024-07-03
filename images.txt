@@ -1,6 +1,2 @@
-alpine
-mongo
-tomcat
-debian
-nvidia/cuda
-
+openjdk:8-slim
+maven:3-jdk-8
