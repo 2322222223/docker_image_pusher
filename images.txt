@@ -1,4 +1,3 @@
 registry
-java
 jenkins
 gitlab-ce
