@@ -1,1 +1,1 @@
-eosphorosai/dbgpt
+mysql/mysql-server
