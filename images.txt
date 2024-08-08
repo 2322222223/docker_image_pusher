@@ -1,1 +1,1 @@
-openjdk:17-slim
+openjdk:17.0.2-oraclelinux8
