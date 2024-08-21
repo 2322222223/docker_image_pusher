@@ -1,1 +1,1 @@
-libretranslate/libretranslate
+nginx/nginx:alpine
