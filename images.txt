@@ -1,1 +1,1 @@
-ubuntu:22.04
+bellsoft/liberica-openjre-alpine-musl:latest
