@@ -1,1 +1,1 @@
-bellsoft/liberica-openjre-alpine-musl:latest
+xiaoyaliu/alist:latest
